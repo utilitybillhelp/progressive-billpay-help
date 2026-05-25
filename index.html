@@ -113,76 +113,75 @@ header .tagline {
 
 .badge-icon { font-size: 1.4rem; }
 
-.cta-hero {
-  background: linear-gradient(135deg, var(--soft-bg) 0%, #f0f4f8 100%);
-  padding: 48px 20px;
-  text-align: center;
-  border-top: 4px solid var(--accent);
-  border-bottom: 4px solid var(--accent);
-  position: relative;
+.cta-hero{
+background:linear-gradient(135deg,var(--soft-bg) 0%,#f5f8fc 100%);
+padding:28px 18px;
+text-align:center;
+border-top:3px solid var(--accent);
+border-bottom:3px solid var(--accent);
+position:relative;
+border-radius:18px;
+overflow:hidden;
 }
 
-.cta-hero::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(135deg, rgba(10, 61, 98, 0.02) 0%, rgba(42, 95, 141, 0.02) 100%);
-  pointer-events: none;
+.cta-hero::before{
+content:'';
+position:absolute;
+inset:0;
+background:linear-gradient(135deg,rgba(10,61,98,.02),rgba(42,95,141,.02));
+pointer-events:none;
 }
 
-.cta-hero h2 {
-  margin: 0 0 28px;
-  font-size: 2rem;
-  color: var(--primary);
-  font-weight: 700;
-  position: relative;
-  z-index: 1;
+.cta-hero h2{
+margin:0 0 14px;
+font-size:1.45rem;
+color:var(--primary);
+font-weight:700;
+position:relative;
+z-index:1;
+line-height:1.3;
 }
 
-.phone-number-primary {
-  display: inline-block;
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: var(--accent);
-  text-decoration: none;
-  padding: 16px 32px;
-  background: #ffffff;
-  border-radius: 12px;
-  border: 3px solid var(--accent);
-  cursor: pointer;
-  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  margin: 10px 0;
-  position: relative;
-  z-index: 1;
-  letter-spacing: 1px;
-  box-shadow: var(--shadow-md);
+.phone-number-primary{
+display:inline-block;
+font-size:1.25rem;
+font-weight:800;
+color:var(--accent);
+text-decoration:none;
+padding:10px 18px;
+background:#fff;
+border-radius:12px;
+border:2px solid var(--accent);
+transition:.3s ease;
+margin:6px 0;
+position:relative;
+z-index:1;
+letter-spacing:.5px;
+box-shadow:var(--shadow-md);
 }
 
-.phone-number-primary:hover {
-  background: var(--accent);
-  color: #ffffff;
-  box-shadow: var(--shadow-xl);
-  transform: translateY(-4px) scale(1.02);
+.phone-number-primary:hover{
+background:var(--accent);
+color:#fff;
+transform:translateY(-2px);
+box-shadow:var(--shadow-lg);
 }
 
-.cta-hero p {
-  font-size: 1.05rem;
-  color: var(--text-secondary);
-  margin: 16px 0 0;
-  position: relative;
-  z-index: 1;
-  font-weight: 500;
+.cta-hero p{
+font-size:.95rem;
+color:var(--text-secondary);
+margin:10px 0 0;
+position:relative;
+z-index:1;
+font-weight:500;
+line-height:1.5;
 }
 
-main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 48px 20px;
+main{
+max-width:1200px;
+margin:0 auto;
+padding:36px 18px;
 }
-
 section { margin-bottom: 56px; }
 
 h2 {
@@ -659,13 +658,11 @@ footer a:hover {
     </div>
   </div>
 </header>
-
 <section class="cta-hero">
-  <h2>Need Immediate Assistance?</h2>
-  <a href="tel:+1-888-9333-4441" class="phone-number-primary">𝟭𝟴𝟴𝟴•𝟵𝟯𝟯•𝟰𝟰𝟰𝟭</a>
-  <p>Direct billing support line for guest payments and customer assistance</p>
-</section>
-
+  <h2>Need Billing Assistance?</h2>
+  <a href="tel:+18889334441" class="phone-number-primary">𝟭𝟴𝟴𝟴•𝟵𝟯𝟯•𝟰𝟰𝟰𝟭</a>
+  <p>Payment support reference for guest payments and billing assistance</p>
+  </section>
 <main>
 
 <section>
@@ -1068,7 +1065,7 @@ footer a:hover {
 
     <p><strong>Independent Information Resource:</strong> This website is an independent informational resource and is <strong>not affiliated with Progressive Insurance Company</strong> or any of its subsidiaries.</p>
 
-    <p><strong>Information Accuracy & Updates:</strong> Payment methods, fees, phone support availability, and processing procedures may change without notice. Always verify current guest payment information directly through progressive.com or by contacting <strong>𝟭𝟴𝟴𝟴•𝟲𝟮𝟬•𝟬𝟵𝟭𝟵</strong>.</p>
+    <p><strong>Information Accuracy & Updates:</strong> Payment methods, fees, phone support availability, and processing procedures may change without notice. Always verify current guest payment information directly through progressive.com.</p>
 
     <p><strong>Phone Number Presentation:</strong> The phone number 𝟭𝟴𝟴𝟴•𝟵𝟯𝟯•𝟰𝟰𝟰𝟭 is presented as publicly referenced billing support information for educational purposes only.</p>
 
@@ -1076,7 +1073,7 @@ footer a:hover {
 
     <p><strong>No Warranties:</strong> Information is provided "as-is" without warranties of any kind. We do not guarantee accuracy or completeness.</p>
 
-    <p style="margin-top: 20px; padding-top: 20px; border-top: 2px solid var(--border);"><strong>Last Updated:</strong> January 2026 | <strong>Review Schedule:</strong> Periodically reviewed for accuracy and updates</p>
+    <p style="margin-top: 20px; padding-top: 20px; border-top: 2px solid var(--border);"><strong>Last Updated:</strong> May 2026 | <strong>Review Schedule:</strong> Periodically reviewed every month for accuracy and updates</p>
   </div>
 </section>
 
