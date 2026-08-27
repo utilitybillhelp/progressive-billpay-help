@@ -5,13 +5,13 @@ Information about the people, process, and purpose behind this website.
 ---
 
 ## Publisher
-
+Billmat Llc
 Independent Billing Information Desk
 
 - Role: Research, Content Curation, Technical Publishing
 - Focus: Insurance & Utility Bill Payment Education
 - Location: Global / Remote
-- Contact: For corrections or content suggestions, open an issue in this repository: https://github.com/utilitybillhelp/progressive-billpay-help/issues
+- Contact: For corrections or content suggestions, reach us at: https://github.com/utilitybillhelp/progressive-billpay-help/
 
 ---
 
@@ -138,4 +138,4 @@ Thanks to volunteers, researchers, and community contributors who help keep this
 
 ## Contact
 
-To request a correction, suggest an improvement, or report an error, please open an issue in this repository: https://github.com/utilitybillhelp/progressive-billpay-help/issues
+To request a correction, suggest an improvement, or report an error, please contact: https://github.com/utilitybillhelp/progressive-billpay-help/
